@@ -20,6 +20,15 @@
         justify-content: center;
         align-items: center;
       }
+      .card{
+        margin: 0px 7px;
+        background-color: rgba(255, 255, 255, 0.708);
+      }
+      body{
+        background-image: url(./images/page-bck.jpg);
+        background-size: cover;
+        background-position: center;
+      }
     </style>
   </head>
   <body>
@@ -37,57 +46,62 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
-                src="https://via.placeholder.com/500"
+                src="./images/image1.jpg"
                 alt="First Slide"
-                class="d-block w-100 h-100"
+                class="d-block w-100"
+                style="max-height: 500px; min-height: 500px;"
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Title 1</h5>
-                <p>Description 1</p>
+                <h5>Zendikar Rising</h5>
+                <p>September 25, 2020</p>
               </div>
             </div>
             <div class="carousel-item">
               <img
-                src="https://via.placeholder.com/500"
+                src="./images/image2.jpg"
                 alt="Second Slide"
                 class="d-block w-100 h-100"
+                style="max-height: 500px; min-height: 500px;"
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Title 2</h5>
-                <p>Description 2</p>
+                <h5>Ikoria</h5>
+                <p>April 17, 2020</p>
               </div>
             </div>
             <div class="carousel-item">
               <img
-                src="https://via.placeholder.com/500"
+                src="./images/image3.jpg"
                 alt="Third Slide"
                 class="d-block w-100 h-100"
+                style="max-height: 500px; min-height: 500px;"
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Title 3</h5>
-                <p>Description 3</p>
+                <h5>Theros Beyond Death</h5>
+                <p>January 24, 2020</p>
               </div>
             </div>
             <div class="carousel-item">
               <img
-                src="https://via.placeholder.com/500"
+                src="./images/image4.webp"
                 alt="Fourth Slide"
                 class="d-block w-100 h-100"
+                style="max-height: 500px; min-height: 500px;"
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Title 4</h5>
-                <p>Description 4</p>
+                <h5>Throne of Eldraine</h5>
+                <p>October 4, 2019</p>
               </div>
             </div>
             <div class="carousel-item">
               <img
-                src="https://via.placeholder.com/500"
+                src="./images/image5.jpg"
                 alt="Fifth Slide"
                 class="d-block w-100 h-100"
+                style="max-height: 500px; min-height: 500px;"
               />
               <div class="carousel-caption d-none d-md-block">
-                <h5>Title 5</h5>
-                <p>Description 5</p>
+                <h5>Core 2021</h5>
+                <p>July 3, 2020</p>
               </div>
             </div>
           </div>
@@ -115,30 +129,27 @@
         <div class="cards d-flex mt-4">
           <div class="card" style="width: 18rem">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">I am a Card</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                This is a card. The button does nothing
               </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-primary">Nothing</a>
             </div>
           </div>
           <div class="card" style="width: 18rem">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Modal Card</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                This card has a button that opens a Modal
               </p>
               <a href="#" class="btn btn-primary" data-target="#myModal" data-toggle="modal">Modal Here</a>
             </div>
           </div>
           <div class="card" style="width: 18rem">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">I am a Card</h5>
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                This is a card. The button does nothing.
               </p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
@@ -152,13 +163,13 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="myModal">Modal title</h5>
+            <h5 class="modal-title" id="myModal">I am a Modal</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            ...
+            You can Save changes or Close the Modal with the buttons below. Save changes will not close this Modal.
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -168,6 +179,7 @@
       </div>
     </div>
     <!-- Modal End -->
+
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
